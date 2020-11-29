@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5741151210396719565
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5741151210396719564}
+  - component: {fileID: 5741151210396719563}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5741151210396719564
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5741151210396719565}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 280.40765, y: 279.54596, z: 15.759876}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5741151210396719563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5741151210396719565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 756c48f1322246e49808d9f259b8b94d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: theme
+    clip: {fileID: 8300000, guid: 6e53fd6cf96c48043adca4c9c7c9e659, type: 3}
+    volume: 0.158
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: engine
+    clip: {fileID: 8300000, guid: 40b8b953a76cb2c48950f8c58a166d03, type: 3}
+    volume: 0.29
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: buttonPress
+    clip: {fileID: 8300000, guid: cd7d2d54243adc540a27c660e4e7644e, type: 3}
+    volume: 0.202
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: moo
+    clip: {fileID: 8300000, guid: 131b1af94dd42df4fb56a003056143c6, type: 3}
+    volume: 0.332
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: explosion
+    clip: {fileID: 8300000, guid: 897eef6d8d7b655468782e6babd5a6cb, type: 3}
+    volume: 0.357
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: delivered
+    clip: {fileID: 8300000, guid: f3e305f7b68708c4d849c17307a1cdd8, type: 3}
+    volume: 0.352
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: win
+    clip: {fileID: 8300000, guid: fee48b460d68a134dbcec3b0a19a2af0, type: 3}
+    volume: 0.393
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: fail
+    clip: {fileID: 8300000, guid: cc64bb656d5017941ad7e7d8bcba2e9a, type: 3}
+    volume: 0.362
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
