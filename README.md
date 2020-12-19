@@ -3,7 +3,7 @@ A game developed by me for the Game Off 2020 Jam (November 29, 2020)
 
 ~~~~
 
-This game was developed on and off for about a month (November 1st to November 29th) for the Game Off 2020 Jam hosted by Github. I used C# and the Unity game engine 
+This game was developed for about a month (November 1st to November 29th) for the Game Off 2020 Jam hosted by Github. I used C# and the Unity game engine 
 to develop the game.
 
 As opposed to my previous games, MOO-NSHOT was made during the school year, where I had other priorities beyond just making the game. In order to ensure I could complete the game 
@@ -18,5 +18,4 @@ move towards it. I know it isn't a particularly efficient solution, but attachin
 would cause an issue where the camera would seem "twitchy" as the player drifted in and out of the edge of the trigger. The "check every frame" solution didn't tank framerate as 
 much as I was fearing, so it was an acceptable compromise.
 
-So what did I learn from this project? I learned a lot of soft skills. I was very glad that I was finally able to resist the temptation to rapidly increase the scope of the 
-project
+All code, art, and sound was created by me. 
